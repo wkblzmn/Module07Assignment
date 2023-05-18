@@ -1,0 +1,38 @@
+Que 01: What is client-side and server-side in web development, and what is the main difference between the two?
+
+Ans: Client-side and server-side are two different aspects of web application.Client-side refers to the part of web development that happens on the user's device or client-side, most of the time in a web browser. It involves using programming languages such as HTML, CSS, and JavaScript. It's executed on the user's device, and it allows for dynamic and interactive web experiences.
+While server-side refers to the part of web development that occurs on the server or the backend. It involves processing and handling the requests made by the client, interacting with databases, performing calculations, and generating dynamic content.The main difference between client-side and server-side is where the code is executed. Client-side code runs on the user's device, while server-side code runs on the server.
+
+Que 02:What is an HTTP request and what are the different types of HTTP requests?
+
+Ans: An HTTP request is made by a client, to a named host, which is located on a server. The aim of the request is to access a resource on the server. The primary or most commonly-used HTTP methods are POST, GET, PUT, PATCH, and DELETE.
+1. GET: The GET method is used to retrieve data from a server.
+2. POST: The POST method is used to submit data to the server to create a new resource or perform some action
+3. PUT: The PUT method is used to update an existing resource on the server. 
+4. DELETE: The DELETE method is used to delete a specified resource on the server.
+5. PATCH: The PATCH method is used to partially update an existing resource on the server. 
+
+Que 03: What is JSON and what is it commonly used for in web development?
+
+Ans: JavaScript Object Notation (JSON) is a standard text-based format for representing structured data based on JavaScript object syntax. In web development, JSON is commonly used for various purposes, including:
+
+Data transmission: JSON is used to send and receive structured data between the client and server, such as API requests and responses.
+
+Configuration files: JSON is used to store configuration settings for web applications, allowing easy customization and flexibility.
+
+Data storage: JSON is used to store and retrieve data in databases or as a file format, as it provides a lightweight and efficient way to represent complex data structures.
+
+AJAX: JSON is often used with AJAX (Asynchronous JavaScript and XML) to retrieve data from a server without reloading the entire web page.
+
+Que 04: What is a middleware in web development, and give an example of how it can be used?
+
+Ans: Middleware is software components or functions that sit between the web application's server and the application. Middleware can perform other tasks such as logging requests and responses, handling error handling, parsing request bodies, compressing or encrypting data, adding headers, etc. It provides a modular and reusable way to add specific functionality to an application's request-response cycle without directly modifying the core application logic.
+
+Que 05: What is a controller in web development, and what is its role in the MVC architecture?
+
+Ans: A controller is a program component that serves as a mediator between a user and applicatio. It also handles business-related tasks triggered in ASP.NET pages. A controller is used for scripting exposed and middle-tier endpoints for expected user actions and results.The MVC architecture is a design pattern that separates an application into three interconnected components:
+
+1. Model: Represents the data and business logic of the application. It interacts with the database or any other data source and performs operations such as data retrieval, manipulation, and validation.
+2. View: Represents the user interface of the application. It is responsible for presenting data to the user and gathering user input. 
+3. Controller: Acts as an intermediary between the model and the view. It receives user requests from the view, processes the input, interacts with the model to retrieve or modify data, and determines which view should be rendered as a response. 
+
